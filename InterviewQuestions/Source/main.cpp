@@ -3,10 +3,12 @@ using namespace std;
 
 int main()
 {
-	cout << "Hello world";
+	LinkedNode first;
+	first.value = 1;
+	LinkedNode second;
+	second.value = 2;
 
-	char* i = new char[1];
-	cin.getline(i, 1);
+	first.next = &second;
 
 	return 0;
 }
