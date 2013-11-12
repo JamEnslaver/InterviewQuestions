@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstddef>
 #include "Lists/LinkedNode.h"
 using namespace std;
 
@@ -13,7 +14,7 @@ int main()
 
 	LinkedNode* pointer = &first;
 
-	while (pointer != nullptr)
+	while (pointer != NULL)
 	{
 		cout << pointer->value;
 		pointer = pointer->next;

@@ -5,7 +5,6 @@ class LinkedNode
 {
     public:
         LinkedNode();
-        virtual ~LinkedNode();
         LinkedNode* next;
         int value;
     protected:
