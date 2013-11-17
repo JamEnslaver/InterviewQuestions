@@ -1,5 +1,8 @@
+#include <iostream>
+#include <cstddef>
+#include <cstring>
 
-char* toBinaryString(int input)
+void toBinaryString(int input, char output[])
 {
     char buffer[32];
     int i = 0;
@@ -14,7 +17,7 @@ char* toBinaryString(int input)
         i++;
     }
     i--;
-    char output[33];
+
     int j = 0;
     while(i >= 0)
     {
@@ -23,5 +26,24 @@ char* toBinaryString(int input)
         j++;
     }
     output[j] = '\0';
-    return output;
+}
+
+void showBinary()
+{
+    using namespace std;
+
+    int inputInt;
+    char output[33];
+    while(true)
+    {
+        cout << "Enter a number, which will be converted into binary" << endl;
+        cout << "A negative number will end the program" << endl;
+        cin >> inputInt;
+
+        if(inputInt < 0)
+            break;
+
+        toBinaryString(inputInt, output);
+        cout << output << endl;
+    }
 }

@@ -1,6 +1,7 @@
 #ifndef BINARY_H
 #define BINARY_H
 
-char* toBinaryString(int input);
+void showBinary();
+void toBinaryString(int input, char output[]);
 
 #endif // BINARY_H
