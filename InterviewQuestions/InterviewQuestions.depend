@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1384261676 source:c:\users\james\documents\coding\interviewquestions\interviewquestions\main.cpp
+	<iostream>
+
+1384707441 source:c:\users\james\documents\coding\interviewquestions\interviewquestions\source\main.cpp
+	<iostream>
+	<cstddef>
+	<cstring>
+	"Binary/Binary.h"
+
+1384293796 source:c:\users\james\documents\coding\interviewquestions\interviewquestions\source\lists\linkednode.cpp
+	"LinkedNode.h"
+	<cstddef>
+
+1384293799 c:\users\james\documents\coding\interviewquestions\interviewquestions\source\lists\linkednode.h
+
+1384724469 source:c:\users\james\documents\coding\interviewquestions\interviewquestions\source\binary\binary.cpp
+
+1384706015 c:\users\james\documents\coding\interviewquestions\interviewquestions\source\binary\binary.h
+

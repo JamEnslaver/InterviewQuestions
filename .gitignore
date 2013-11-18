@@ -215,8 +215,5 @@ pip-log.txt
 .mr.developer.cfg
 *.exe
 *.o
-*.cbp
-*.layout
-*.depend
 *.vcxproj
 *.filters
