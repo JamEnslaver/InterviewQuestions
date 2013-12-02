@@ -1,7 +1,8 @@
 #include "Binary/Binary.h"
+#include "Strings/Compress.h"
 
 int main()
 {
-    showBinary();
+    showCompress();
 	return 0;
 }

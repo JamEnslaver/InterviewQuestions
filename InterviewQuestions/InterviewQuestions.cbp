@@ -36,6 +36,8 @@
 		<Unit filename="Source/Binary/Binary.h" />
 		<Unit filename="Source/Lists/LinkedNode.cpp" />
 		<Unit filename="Source/Lists/LinkedNode.h" />
+		<Unit filename="Source/Strings/Compress.cpp" />
+		<Unit filename="Source/Strings/Compress.h" />
 		<Unit filename="Source/main.cpp" />
 		<Extensions>
 			<code_completion />
